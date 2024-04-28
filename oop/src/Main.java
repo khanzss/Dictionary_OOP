@@ -8,6 +8,6 @@ public class Main {
         DictionaryManagement dictionaryManagement = new DictionaryManagement();
         Dictionary dictionary = new Dictionary();
         String path = "C:/Users/ADMIN/Desktop/Project_OOP_CML/src/dictionary.txt";
-        dic.dictionaryBasic(dictionaryManagement, dictionary,path);
+        dic.dictionaryAdvanced(dictionaryManagement, dictionary,path);
     }
 }
