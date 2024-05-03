@@ -7,7 +7,7 @@ public class Main {
         DictionaryCommandline dic = new DictionaryCommandline();
         DictionaryManagement dictionaryManagement = new DictionaryManagement();
         Dictionary dictionary = new Dictionary();
-        String path = "C:/Users/ADMIN/Desktop/Project_OOP_CML/src/dictionary.txt";
+        String path = "CML/oop/src/main/dictionary.txt";
         dic.dictionaryAdvanced(dictionaryManagement, dictionary,path);
     }
 }

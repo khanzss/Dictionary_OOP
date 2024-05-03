@@ -1,4 +1,4 @@
-package main;
+package CommandLine;
 
 import java.io.File;
 import java.nio.charset.StandardCharsets;
@@ -8,8 +8,7 @@ import java.util.Collections;
 import java.util.List;
 
 public class ListQuestion extends ArrayList<Question> {
-    public static String path = "C:/Users/Admin/Documents/Dictionary_OOP/oop/src/main/question.txt";
-    public void insertFromFile() {
+    public void insertFromCommandline(String path) {
         File f = new File(path);
         try {
             List<String> allText = Files.readAllLines(f.toPath(), StandardCharsets.UTF_8);

@@ -7,9 +7,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import static jdk.nashorn.internal.runtime.regexp.joni.constants.internal.NodeType.STR;
-
-
 public class DictionaryManagement {
     protected Map<String, Pair<String, Integer>> mp = new HashMap<>();
     protected Trie trie = new Trie();
